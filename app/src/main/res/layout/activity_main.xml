@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <Button
+        android:id="@+id/main_btn_quran"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="القرآن الكريم"
+        android:textColor="#000000"
+        android:textSize="@dimen/_22ssp"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/btnbackground"
+        android:layout_above="@id/main_btn_hades"
+        />
+
+    <Button
+        android:textColor="#000000"
+        android:id="@+id/main_btn_hades"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:text=" الحديث الشريف"
+        android:textSize="@dimen/_22ssp"
+        android:layout_above="@id/main_btn_books"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/btnbackground"
+
+        />
+
+    <Button
+        android:id="@+id/main_btn_books"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="كتب دينية "
+        android:textSize="@dimen/_22ssp"
+        android:layout_above="@id/main_btn_shows"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/btnbackground"
+        android:textColor="#070707"
+        />
+
+    <Button
+        android:id="@+id/main_btn_shows"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:text=" عروض تلفزيونية"
+        android:textSize="@dimen/_22ssp"
+        android:layout_above="@id/main_btn_sounds"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/btnbackground"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/main_btn_sounds"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:text=" أناشيد"
+        android:textSize="@dimen/_22ssp"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/btnbackground"
+        android:textColor="#000000"
+        />
+
+
+
+
+</RelativeLayout>

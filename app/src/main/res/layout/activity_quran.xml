@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuranActivity"
+    android:background="@drawable/background3"
+    >
+
+
+    <Button
+        android:id="@+id/quran_text_btn_quran"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_15sdp"
+        android:text=" قراءة "
+        android:textColor="#000000"
+        android:textSize="@dimen/_22ssp"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/btnbackground"
+        android:layout_above="@id/quran_explanation_btn_quran"
+        />
+
+    <Button
+        android:id="@+id/quran_explanation_btn_quran"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_15sdp"
+        android:text=" تفسير"
+        android:textColor="#000000"
+        android:textSize="@dimen/_22ssp"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/btnbackground"
+        android:layout_above="@id/quran_sound_btn_quran"
+        />
+
+    <Button
+        android:id="@+id/quran_sound_btn_quran"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_15sdp"
+        android:text=" استماع و تحميل "
+        android:textColor="#000000"
+        android:textSize="@dimen/_22ssp"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/btnbackground"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuranTextActivity"
+    android:background="@drawable/background2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        >
+
+        <Button
+            android:id="@+id/quran_text_btn_1"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الفاتحة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+
+        <Button
+            android:id="@+id/quran_text_btn_2"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" البقرة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+        <Button
+            android:id="@+id/quran_text_btn_3"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" آل عمران "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_4"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" النساء "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_5"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" المائدة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_6"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الأنعام "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_7"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الأعراف "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_8"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الأنفال "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_9"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" التوبة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_10"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" يونس "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+
+        <Button
+            android:id="@+id/quran_text_btn_11"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" هود "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_12"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" يوسف "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_13"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الرعد "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_14"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" إبراهيم "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_15"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الحجر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_16"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" النحل "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_17"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الإسراء "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_18"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الكهف "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_19"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" مريم "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_20"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" طه "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_21"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الأنبياء "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_22"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الحج "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_23"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" المؤمنون "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_24"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" النور "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_25"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الفرقان "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_26"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الشعراء "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_27"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" النمل "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_28"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" القصص "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_29"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" العنكبوت "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_30"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الروم "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_31"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" لقمان "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_32"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" السجدة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_33"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الأحزاب "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_34"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" سبأ "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_35"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" فاطر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_36"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" يس "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_37"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الصافات "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_38"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" ص "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_39"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الزمر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_40"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" غافر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_41"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" فصلت "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_42"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الشوري "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_43"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الزخرف "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_44"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الدخان "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_45"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الجاثية "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+
+        <Button
+            android:id="@+id/quran_text_btn_46"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الأحقاف "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_47"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" محمد "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_48"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الفتح "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_49"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الحجرات "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_50"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" ق "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_51"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الذريات "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_52"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الطور "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_53"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" النجم "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_54"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" القمر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_55"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الرحمن "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_56"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الواقعة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_57"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الحديد "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_58"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" المجادلة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_59"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الحشر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_60"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الممتحنة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_61"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الصف "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_62"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الجمعة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_63"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" المنافقون "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_64"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" التغابن "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_65"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الطلاق "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_66"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" التحريم "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_67"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الملك "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_68"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" القلم "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_69"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الحاقة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_70"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" المعارج "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_71"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" نوح "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_72"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الجن "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_73"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" المزمل "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_74"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" المدثر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_75"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" القيامة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_76"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الإنسان "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_77"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" المرسلات "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_78"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" النبأ "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_79"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" النازعات "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_80"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" عبس "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_81"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" التكوير "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_82"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الإنفطار "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_83"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" المطففين "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_84"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الإنشقاق "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_85"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" البروج "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_86"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الطارق "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_87"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الأعلي "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_88"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الغاشية "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_89"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الفجر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_90"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" البلد "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_91"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الشمس "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_92"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الليل "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_93"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الضحي "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_94"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الشرح "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_95"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" التين "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_96"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" العلق "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_97"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" القدر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_98"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" البينة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_99"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الزلزلة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_100"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" العاديات "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_101"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" القارعة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_102"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" التكاثر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_103"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" العصر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_104"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الهمزة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_105"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الفيل "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_106"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" قريش "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_107"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الماعون "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_108"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الكوثر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_109"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الكافرون "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_110"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" النصر "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_111"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" المسد "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_112"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الإخلاص "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_113"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الفلق "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/quran_text_btn_114"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text=" الناس "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

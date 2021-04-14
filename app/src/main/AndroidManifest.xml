@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.muslim">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="نور الحق"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QuranExplanation_114Activity"
+            android:label="النَّاس"
+
+            ></activity>
+        <activity android:name=".QuranExplanation_113Activity"
+            android:label="الفَلَق"
+
+            />
+        <activity android:name=".QuranExplanation_112Activity"
+            android:label="الإخْلَاص"
+
+            />
+        <activity android:name=".QuranExplanation_111Activity"
+            android:label="المَسَد"
+
+            />
+        <activity android:name=".QuranExplanation_110Activity"
+            android:label="النَّصر"
+
+            />
+        <activity android:name=".QuranExplanation_109Activity"
+            android:label="الكَافِرُون"
+
+            />
+        <activity android:name=".QuranExplanation_108Activity"
+            android:label="الكَوْثَر"
+
+            />
+        <activity android:name=".QuranExplanation_107Activity"
+            android:label="المَاعُون"
+
+            />
+        <activity android:name=".QuranExplanation_106Activity"
+            android:label="قُرَيْش"
+
+            />
+        <activity android:name=".QuranExplanation_105Activity"
+            android:label="الفِيل"
+
+            />
+        <activity android:name=".QuranExplanation_104Activity"
+            android:label="الهُمَزَة"
+
+            />
+        <activity android:name=".QuranExplanation_103Activity"
+            android:label="العَصْر"
+
+            />
+        <activity android:name=".QuranExplanation_102Activity"
+            android:label="التَّكَاثر"
+
+            />
+        <activity android:name=".QuranExplanation_101Activity"
+            android:label="القَارِعة"
+
+            />
+        <activity android:name=".QuranExplanation_100Activity"
+            android:label="العَادِيات"
+
+            />
+        <activity android:name=".QuranExplanation_99Activity"
+            android:label="الزلزَلة"
+
+            />
+        <activity android:name=".QuranExplanation_98Activity"
+            android:label="البَينَة"
+
+            />
+
+        <activity android:name=".QuranExplanation_97Activity"
+            android:label="القَدْر"
+
+            />
+        <activity android:name=".QuranExplanation_96Activity"
+            android:label="العَلَق"
+
+            />
+        <activity android:name=".QuranExplanation_95Activity"
+            android:label="التِّين"
+
+            />
+        <activity android:name=".QuranExplanation_94Activity"
+            android:label="الشَّرْح"
+
+            />
+        <activity android:name=".QuranExplanation_93Activity"
+            android:label="الضُّحَى"
+
+            />
+        <activity android:name=".QuranExplanation_92Activity"
+            android:label="الليْل"
+
+            />
+        <activity android:name=".QuranExplanation_91Activity"
+            android:label="الشَّمْس"
+
+            />
+        <activity android:name=".QuranExplanation_90Activity"
+            android:label="البَلَد"
+
+            />
+        <activity android:name=".QuranExplanation_89Activity"
+            android:label="الفَجْر"
+
+            />
+        <activity android:name=".QuranExplanation_88Activity"
+            android:label="الغَاشِية"
+
+            />
+        <activity android:name=".QuranExplanation_87Activity"
+            android:label="الأَعْلى"
+
+            />
+        <activity android:name=".QuranExplanation_86Activity"
+            android:label="الطَّارِق"
+
+            />
+        <activity android:name=".QuranExplanation_85Activity"
+            android:label="البرُوج"
+
+            />
+        <activity android:name=".QuranExplanation_84Activity"
+            android:label="الانْشِقَاق"
+
+            />
+        <activity android:name=".QuranExplanation_83Activity"
+            android:label="المطفِّفِين"
+
+            />
+        <activity android:name=".QuranExplanation_82Activity"
+            android:label="الانفِطار"
+
+            />
+        <activity android:name=".QuranExplanation_81Activity"
+            android:label="التَّكوير"
+
+            />
+        <activity android:name=".QuranExplanation_80Activity"
+            android:label="عَبَس"
+
+            />
+        <activity android:name=".QuranExplanation_79Activity"
+            android:label="النّازعَات"
+
+            />
+        <activity android:name=".QuranExplanation_78Activity"
+            android:label="النَّبَأ"
+
+            />
+        <activity android:name=".QuranExplanation_77Activity"
+            android:label="المُرسَلات"
+
+            />
+        <activity android:name=".QuranExplanation_76Activity"
+            android:label="الإنسَان"
+
+            />
+        <activity android:name=".QuranExplanation_75Activity"
+            android:label="القِيَامَة"
+
+            />
+        <activity android:name=".QuranExplanation_74Activity"
+            android:label="المُدَّثِّر"
+
+            />
+        <activity android:name=".QuranExplanation_73Activity"
+            android:label="المُزَّمِّل"
+
+            />
+        <activity android:name=".QuranExplanation_72Activity"
+            android:label="الجِن"
+
+            />
+        <activity android:name=".QuranExplanation_71Activity"
+            android:label="نُوح"
+
+            />
+        <activity android:name=".QuranExplanation_70Activity"
+            android:label="المعَارج"
+
+            />
+        <activity android:name=".QuranExplanation_69Activity"
+            android:label="الحَاقَّة"
+
+            />
+        <activity android:name=".QuranExplanation_68Activity"
+            android:label="القَلَم"
+
+            />
+        <activity android:name=".QuranExplanation_67Activity"
+            android:label="المُلْك"
+
+            />
+        <activity android:name=".QuranExplanation_66Activity"
+            android:label="التحْريم"
+
+            />
+        <activity android:name=".QuranExplanation_65Activity"
+            android:label="الطلَاق"
+
+            />
+        <activity android:name=".QuranExplanation_64Activity"
+            android:label="التغَابُن"
+
+            />
+        <activity android:name=".QuranExplanation_63Activity"
+            android:label="المنَافِقون"
+
+            />
+        <activity android:name=".QuranExplanation_62Activity"
+            android:label="الجُمُعَة"
+
+            />
+        <activity android:name=".QuranExplanation_61Activity"
+            android:label="الصَّف"
+
+            />
+        <activity android:name=".QuranExplanation_60Activity"
+            android:label="المُمتَحنَة"
+
+            />
+        <activity android:name=".QuranExplanation_59Activity"
+            android:label="الحَشر"
+
+            />
+        <activity android:name=".QuranExplanation_58Activity"
+            android:label="المجَادلة"
+
+            />
+        <activity android:name=".QuranExplanation_57Activity"
+            android:label="الحَديد"
+
+            />
+        <activity android:name=".QuranExplanation_56Activity"
+            android:label="الوَاقِعَة"
+
+            />
+        <activity android:name=".QuranExplanation_55Activity"
+            android:label="الرَّحمن"
+
+            />
+        <activity android:name=".QuranExplanation_54Activity"
+            android:label="القَمَر"
+
+            />
+        <activity android:name=".QuranExplanation_53Activity"
+            android:label="النَّجْم"
+
+            />
+        <activity android:name=".QuranExplanation_52Activity"
+            android:label="الطُّور"
+
+            />
+        <activity android:name=".QuranExplanation_51Activity"
+            android:label="الذَّاريَات"
+
+            />
+        <activity android:name=".QuranExplanation_50Activity"
+            android:label="ق"
+
+            />
+        <activity android:name=".QuranExplanation_49Activity"
+            android:label="الحُجرَات"
+
+            />
+        <activity android:name=".QuranExplanation_48Activity"
+            android:label="الفَتْح"
+
+            />
+        <activity android:name=".QuranExplanation_47Activity"
+            android:label="محَمَّد"
+
+            />
+        <activity android:name=".QuranExplanation_46Activity"
+            android:label="الأحْقاف"
+
+            />
+        <activity android:name=".QuranExplanation_45Activity"
+            android:label="الجَاثيَة"
+
+            />
+        <activity android:name=".QuranExplanation_44Activity"
+            android:label="الدخَان"
+
+            />
+        <activity android:name=".QuranExplanation_43Activity"
+            android:label="الزُّخْرُف"
+
+            />
+        <activity android:name=".QuranExplanation_42Activity"
+            android:label="الشُّورَى"
+
+            />
+        <activity android:name=".QuranExplanation_41Activity"
+            android:label="فُصِّلَتْ"
+
+            />
+        <activity android:name=".QuranExplanation_40Activity"
+            android:label="غَافِر"
+
+            />
+        <activity android:name=".QuranExplanation_39Activity"
+            android:label="الزُّمَر"
+
+            />
+        <activity android:name=".QuranExplanation_38Activity"
+            android:label="ص"
+
+            />
+        <activity android:name=".QuranExplanation_37Activity"
+            android:label="الصَّافات"
+
+            />
+        <activity android:name=".QuranExplanation_36Activity"
+            android:label="يس"
+
+            />
+        <activity android:name=".QuranExplanation_35Activity"
+            android:label="فَاطِر"
+
+            />
+        <activity android:name=".QuranExplanation_34Activity"
+            android:label="سَبَأ"
+
+            />
+        <activity android:name=".QuranExplanation_33Activity"
+            android:label="الأحزَاب"
+
+            />
+        <activity android:name=".QuranExplanation_32Activity"
+            android:label="السَّجدَة"
+
+            />
+        <activity android:name=".QuranExplanation_31Activity"
+            android:label="لقمَان"
+
+            />
+        <activity android:name=".QuranExplanation_30Activity"
+            android:label="الرُّوم"
+
+            />
+        <activity android:name=".QuranExplanation_29Activity"
+            android:label="العَنكبوت"
+
+            />
+        <activity android:name=".QuranExplanation_28Activity"
+            android:label="القَصَص"
+
+            />
+        <activity android:name=".QuranExplanation_27Activity"
+            android:label="النَّمْل"
+
+            />
+        <activity android:name=".QuranExplanation_26Activity"
+            android:label="الشُّعَرَاء"
+
+            />
+        <activity android:name=".QuranExplanation_25Activity"
+            android:label="الفُرْقان"
+
+            />
+        <activity android:name=".QuranExplanation_24Activity"
+            android:label="النُّور"
+
+            />
+        <activity android:name=".QuranExplanation_23Activity"
+            android:label="المُؤمنون"
+
+            />
+        <activity android:name=".QuranExplanation_22Activity"
+            android:label="الحَج"
+
+            />
+        <activity android:name=".QuranExplanation_21Activity"
+            android:label="الأنبيَاء"
+
+            />
+        <activity android:name=".QuranExplanation_20Activity"
+            android:label="طه"
+
+            />
+        <activity android:name=".QuranExplanation_19Activity"
+            android:label="مَريَم"
+
+            />
+        <activity android:name=".QuranExplanation_18Activity"
+            android:label="الكهْف"
+
+            />
+        <activity android:name=".QuranExplanation_17Activity"
+            android:label="الإسْرَاء"
+
+            />
+        <activity android:name=".QuranExplanation_16Activity"
+            android:label="النَّحْل"
+
+            />
+        <activity android:name=".QuranExplanation_15Activity"
+            android:label="الحِجْر"
+
+            />
+        <activity android:name=".QuranExplanation_14Activity"
+            android:label="إبراهِيم"
+
+            />
+        <activity android:name=".QuranExplanation_13Activity"
+            android:label="الرَّعْد"
+
+            />
+        <activity android:name=".QuranExplanation_12Activity"
+            android:label="يُوسُف"
+
+            />
+        <activity android:name=".QuranExplanation_11Activity"
+            android:label="هُود"
+
+            />
+        <activity android:name=".QuranExplanation_10Activity"
+            android:label="يُونس"
+
+            />
+        <activity android:name=".QuranExplanation_9Activity"
+            android:label="التوبَة"
+
+            />
+        <activity android:name=".QuranExplanation_8Activity"
+            android:label="الأنفَال"
+
+            />
+        <activity android:name=".QuranExplanation_7Activity"
+            android:label="الأعرَاف"
+
+            />
+        <activity android:name=".QuranExplanation_6Activity"
+            android:label="الأنعَام"
+
+            />
+        <activity android:name=".QuranExplanation_5Activity"
+            android:label="المَائدة"
+
+            />
+        <activity android:name=".QuranExplanation_4Activity"
+            android:label="النِّسَاء"
+
+            />
+        <activity android:name=".QuranExplanation_3Activity"
+            android:label="آل عِمرَان"
+
+            />
+        <activity android:name=".QuranExplanation_2Activity"
+            android:label="البَقَرَة"
+
+            />
+        <activity android:name=".QuranExplanation_1Activity"
+            android:label="الفَاتِحَة"
+
+            />
+        <activity android:name=".QuranText_114Activity"
+            android:label="النَّاس"
+
+            />
+        <activity android:name=".QuranText_113Activity"
+            android:label="الفَلَق"
+
+            />
+        <activity android:name=".QuranText_112Activity"
+            android:label="الإخْلَاص"
+
+            />
+        <activity android:name=".QuranText_111Activity"
+            android:label="المَسَد"
+
+            />
+        <activity android:name=".QuranText_110Activity"
+            android:label="النَّصر"
+
+            />
+        <activity android:name=".QuranText_109Activity"
+            android:label="الكَافِرُون"
+
+            />
+        <activity android:name=".QuranText_108Activity"
+            android:label="الكَوْثَر"
+
+            />
+        <activity android:name=".QuranText_107Activity"
+            android:label="المَاعُون"
+
+            />
+        <activity android:name=".QuranText_106Activity"
+            android:label="قُرَيْش"
+
+            />
+        <activity android:name=".QuranText_105Activity"
+            android:label="الفِيل"
+
+            />
+        <activity android:name=".QuranText_104Activity"
+            android:label="الهُمَزَة"
+
+            />
+        <activity android:name=".QuranText_103Activity"
+            android:label="العَصْر"
+
+            />
+        <activity android:name=".QuranText_102Activity"
+            android:label="التَّكَاثر"
+
+            />
+        <activity android:name=".QuranText_101Activity"
+            android:label="القَارِعة"
+
+            />
+        <activity android:name=".QuranText_100Activity"
+            android:label="العَادِيات"
+
+            />
+        <activity android:name=".QuranText_99Activity"
+            android:label="الزلزَلة"
+
+            />
+        <activity android:name=".QuranText_98Activity"
+            android:label="البَينَة"
+
+            />
+        <activity android:name=".QuranText_97Activity"
+            android:label="القَدْر"
+
+            />
+        <activity android:name=".QuranText_96Activity"
+            android:label="العَلَق"
+
+            />
+        <activity android:name=".QuranText_95Activity"
+            android:label="التِّين"
+
+            />
+        <activity android:name=".QuranText_94Activity"
+            android:label="الشَّرْح"
+
+            />
+        <activity android:name=".QuranText_93Activity"
+            android:label="الضُّحَى"
+
+            />
+        <activity android:name=".QuranText_92Activity"
+            android:label="الليْل"
+
+            />
+        <activity android:name=".QuranText_91Activity"
+            android:label="الشَّمْس"
+
+            />
+        <activity android:name=".QuranText_90Activity"
+            android:label="البَلَد"
+
+            />
+        <activity android:name=".QuranText_89Activity"
+            android:label="الفَجْر"
+
+            />
+        <activity android:name=".QuranText_88Activity"
+            android:label="الغَاشِية"
+
+            />
+        <activity android:name=".QuranText_87Activity"
+            android:label="الأَعْلى"
+
+            />
+        <activity android:name=".QuranText_86Activity"
+            android:label="الطَّارِق"
+
+            />
+        <activity android:name=".QuranText_85Activity"
+            android:label="البرُوج"
+
+            />
+        <activity android:name=".QuranText_84Activity"
+            android:label="الانْشِقَاق"
+
+            />
+        <activity android:name=".QuranText_83Activity"
+            android:label="المطفِّفِين"
+
+            />
+        <activity android:name=".QuranText_82Activity"
+            android:label="الانفِطار"
+
+            />
+        <activity android:name=".QuranText_81Activity"
+            android:label="التَّكوير"
+
+            />
+        <activity android:name=".QuranText_80Activity"
+            android:label="عَبَس"
+
+            />
+        <activity android:name=".QuranText_79Activity"
+            android:label="النّازعَات"
+
+            />
+        <activity android:name=".QuranText_78Activity"
+            android:label="النَّبَأ"
+
+            />
+        <activity android:name=".QuranText_77Activity"
+            android:label="المُرسَلات"
+
+            />
+        <activity android:name=".QuranText_76Activity"
+            android:label="الإنسَان"
+
+            />
+        <activity android:name=".QuranText_75Activity"
+            android:label="القِيَامَة"
+
+            />
+        <activity android:name=".QuranText_74Activity"
+            android:label="المُدَّثِّر"
+
+            />
+        <activity android:name=".QuranText_73Activity"
+            android:label="المُزَّمِّل"
+
+            />
+        <activity android:name=".QuranText_72Activity"
+            android:label="الجِن"
+
+            />
+        <activity android:name=".QuranText_71Activity"
+            android:label="نُوح"
+
+            />
+        <activity android:name=".QuranText_70Activity"
+            android:label="المعَارج"
+
+            />
+        <activity android:name=".QuranText_69Activity"
+            android:label="الحَاقَّة"
+
+            />
+        <activity android:name=".QuranText_68Activity"
+            android:label="القَلَم"
+
+            />
+        <activity android:name=".QuranText_67Activity"
+            android:label="المُلْك"
+
+            />
+        <activity android:name=".QuranText_66Activity"
+            android:label="التحْريم"
+
+            />
+        <activity android:name=".QuranText_65Activity"
+            android:label="الطلَاق"
+
+            />
+        <activity android:name=".QuranText_64Activity"
+            android:label="التغَابُن"
+
+            />
+        <activity android:name=".QuranText_63Activity"
+            android:label="المنَافِقون"
+
+            />
+        <activity android:name=".QuranText_62Activity"
+            android:label="الجُمُعَة"
+
+            />
+        <activity android:name=".QuranText_61Activity"
+            android:label="الصَّف"
+
+            />
+        <activity android:name=".QuranText_60Activity"
+            android:label="المُمتَحنَة"
+
+            />
+        <activity android:name=".QuranText_59Activity"
+            android:label="الحَشر"
+
+            />
+        <activity android:name=".QuranText_58Activity"
+            android:label="المجَادلة"
+
+            />
+        <activity android:name=".QuranText_57Activity"
+            android:label="الحَديد"
+
+            />
+        <activity android:name=".QuranText_56Activity"
+            android:label="الوَاقِعَة"
+
+            />
+        <activity android:name=".QuranText_55Activity"
+            android:label="الرَّحمن"
+
+            />
+        <activity android:name=".QuranText_54Activity"
+            android:label="القَمَر"
+
+            />
+        <activity android:name=".QuranText_53Activity"
+            android:label="النَّجْم"
+
+            />
+        <activity android:name=".QuranText_52Activity"
+            android:label="الطُّور"
+
+            />
+        <activity android:name=".QuranText_51Activity"
+            android:label="الذَّاريَات"
+
+            />
+        <activity android:name=".QuranText_50Activity"
+            android:label="ق"
+
+            />
+        <activity android:name=".QuranText_49Activity"
+            android:label="الحُجرَات"
+
+            />
+        <activity android:name=".QuranText_48Activity"
+            android:label="الفَتْح"
+
+            />
+        <activity android:name=".QuranText_47Activity"
+            android:label="محَمَّد"
+
+            />
+        <activity android:name=".QuranText_46Activity"
+            android:label="الأحْقاف"
+
+            />
+        <activity android:name=".QuranText_45Activity"
+            android:label="الجَاثيَة"
+
+            />
+        <activity android:name=".QuranText_44Activity"
+            android:label="الدخَان"
+
+            />
+        <activity android:name=".QuranText_43Activity"
+            android:label="الزُّخْرُف"
+
+            />
+        <activity android:name=".QuranText_42Activity"
+            android:label="الشُّورَى"
+
+            />
+        <activity android:name=".QuranText_41Activity"
+            android:label="فُصِّلَتْ"
+
+            />
+        <activity android:name=".QuranText_40Activity"
+            android:label="غَافِر"
+
+            />
+        <activity android:name=".QuranText_39Activity"
+            android:label="الزُّمَر"
+
+            />
+        <activity android:name=".QuranText_38Activity"
+            android:label="ص"
+
+            />
+        <activity android:name=".QuranText_37Activity"
+            android:label="الصَّافات"
+
+            />
+        <activity android:name=".QuranText_36Activity"
+            android:label="يس"
+
+            />
+        <activity android:name=".QuranText_35Activity"
+            android:label="فَاطِر"
+
+            />
+        <activity android:name=".QuranText_34Activity"
+            android:label="سَبَأ"
+
+            />
+        <activity android:name=".QuranText_33Activity"
+            android:label="الأحزَاب"
+
+            />
+        <activity android:name=".QuranText_32Activity"
+            android:label="السَّجدَة"
+
+            />
+        <activity android:name=".QuranText_31Activity"
+            android:label="لقمَان"
+
+            />
+        <activity android:name=".QuranText_30Activity"
+            android:label="الرُّوم"
+
+            />
+        <activity android:name=".QuranText_29Activity"
+            android:label="العَنكبوت"
+
+            />
+        <activity android:name=".QuranText_28Activity"
+            android:label="القَصَص"
+
+            />
+        <activity android:name=".QuranText_27Activity"
+            android:label="النَّمْل"
+
+            />
+        <activity android:name=".QuranText_26Activity"
+            android:label="الشُّعَرَاء"
+
+            />
+        <activity android:name=".QuranText_25Activity"
+            android:label="الفُرْقان"
+
+            />
+        <activity android:name=".QuranText_24Activity"
+            android:label="النُّور"
+
+            />
+        <activity android:name=".QuranText_23Activity"
+            android:label="المُؤمنون"
+
+            />
+        <activity android:name=".QuranText_22Activity"
+            android:label="الحَج"
+
+            />
+        <activity android:name=".QuranText_21Activity"
+            android:label="الأنبيَاء"
+
+            />
+        <activity android:name=".QuranText_20Activity"
+            android:label="طه"
+
+            />
+        <activity android:name=".QuranText_19Activity"
+            android:label="مَريَم"
+
+            />
+        <activity android:name=".QuranText_18Activity"
+            android:label="الكهْف"
+
+            />
+        <activity android:name=".QuranText_17Activity"
+            android:label="الإسْرَاء"
+
+            />
+        <activity android:name=".QuranText_16Activity"
+            android:label="النَّحْل"
+
+            />
+        <activity android:name=".QuranText_15Activity"
+            android:label="الحِجْر"
+
+            />
+        <activity android:name=".QuranText_14Activity"
+            android:label="إبراهِيم"
+
+            />
+        <activity android:name=".QuranText_13Activity"
+            android:label="الرَّعْد"
+
+            />
+        <activity android:name=".QuranText_12Activity"
+            android:label="يُوسُف"
+
+            />
+        <activity android:name=".QuranText_11Activity"
+            android:label="هُود"
+
+            />
+        <activity android:name=".QuranText_10Activity"
+            android:label="يُونس"
+
+            />
+        <activity android:name=".QuranText_9Activity"
+            android:label="التوبَة"
+
+            />
+        <activity android:name=".QuranText_8Activity"
+            android:label="الأنفَال"
+
+            />
+        <activity android:name=".QuranText_7Activity"
+            android:label="الأعرَاف"
+
+            />
+        <activity android:name=".QuranText_6Activity"
+            android:label="الأنعَام"
+
+            />
+        <activity android:name=".QuranText_5Activity"
+            android:label="المَائدة"
+
+            />
+        <activity android:name=".QuranText_4Activity"
+            android:label="النِّسَاء"
+
+            />
+        <activity android:name=".QuranText_3Activity"
+            android:label="آل عِمرَان"
+
+            />
+        <activity android:name=".QuranText_2Activity"
+
+            android:label="البَقَرَة"
+
+            />
+        <activity android:name=".QuranText_1Activity"
+            android:label="الفَاتِحَة"
+         />
+        <activity android:name=".SoundsActivity"
+            android:label="أناشيد"
+
+            />
+        <activity android:name=".ShowsActivity"
+            android:label="عروض تلفزيونية"
+
+            />
+        <activity android:name=".BooksActivity"
+            android:label="كتب دينية"
+
+            />
+        <activity android:name=".HadethActivity"
+            android:label="الحديث الشريف"
+
+            />
+        <activity android:name=".QuranExplanationActivity"
+            android:label="التفسير"
+
+            />
+        <activity android:name=".QuranSoundActivity"
+            android:label="الإستماع و التحميل"
+
+            />
+        <activity android:name=".QuranTextActivity"
+            android:label="القراءة"
+
+            />
+        <activity android:name=".QuranActivity"
+            android:label="القرآن الكريم"
+
+            />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

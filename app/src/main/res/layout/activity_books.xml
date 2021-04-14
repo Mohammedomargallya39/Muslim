@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BooksActivity"
+    android:background="@drawable/books"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        >
+
+        <Button
+            android:id="@+id/mogezat_alqoran_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" معجزة القرآن "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+
+        <Button
+            android:id="@+id/ehyaa_olom_alden_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" إحياء علوم الدين "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+        <Button
+            android:id="@+id/omar_back_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text="إسترداد عمر من السيرة.."
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/alesraa_and_almerag_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" الإسراء و المعراج "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/altouba_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" التوبة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/way_to_qoran_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" الطريق الي القرآن "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/alfath_aleslamy_to_misr_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text="الفتح الإسلامي لمصر"
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/mohammed_story_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" سيرة خاتم النبيين "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/sefat_alsafwa_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" صفة الصفوة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/fattny_salah_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" فاتتني صلاة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+
+        <Button
+            android:id="@+id/qesas_alsahaba_alsalehen_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" قصص الصحابة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/alshmael_almohamadya_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" الشمائل المحمدية "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/pray_chimistry_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" كيمياء الصلاة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/because_you_allah_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" لأنك الله "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/qesas_alanbiaa_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:text=" قصص الأنبياء "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

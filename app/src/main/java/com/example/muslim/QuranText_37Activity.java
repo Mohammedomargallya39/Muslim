@@ -1,0 +1,218 @@
+package com.example.muslim;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import android.os.Bundle;
+
+import java.util.ArrayList;
+
+public class QuranText_37Activity extends AppCompatActivity {
+
+    ArrayList<Alsafat> alsafats = new ArrayList<>();
+    RecyclerView recyclerView;
+    quran_text_37_adapter quran_text_37_adapter;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_quran_text_37);
+
+        alsafats.add(new Alsafat("بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"));
+        alsafats.add(new Alsafat("وَالصَّافَّاتِ صَفًّا (1)"));
+        alsafats.add(new Alsafat("فَالزَّاجِرَاتِ زَجْرًا (2)"));
+        alsafats.add(new Alsafat("فَالتَّالِيَاتِ ذِكْرًا (3)"));
+        alsafats.add(new Alsafat("إِنَّ إِلَهَكُمْ لَوَاحِدٌ (4)"));
+        alsafats.add(new Alsafat("رَبُّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا وَرَبُّ الْمَشَارِقِ (5)"));
+        alsafats.add(new Alsafat("إِنَّا زَيَّنَّا السَّمَاءَ الدُّنْيَا بِزِينَةٍ الْكَوَاكِبِ (6)"));
+        alsafats.add(new Alsafat("وَحِفْظًا مِنْ كُلِّ شَيْطَانٍ مَارِدٍ (7)"));
+        alsafats.add(new Alsafat("لَا يَسَّمَّعُونَ إِلَى الْمَلَإِ الْأَعْلَى وَيُقْذَفُونَ مِنْ كُلِّ جَانِبٍ (8)"));
+        alsafats.add(new Alsafat("دُحُورًا وَلَهُمْ عَذَابٌ وَاصِبٌ (9)"));
+        alsafats.add(new Alsafat("إِلَّا مَنْ خَطِفَ الْخَطْفَةَ فَأَتْبَعَهُ شِهَابٌ ثَاقِبٌ (10)"));
+        alsafats.add(new Alsafat("فَاسْتَفْتِهِمْ أَهُمْ أَشَدُّ خَلْقًا أَمْ مَنْ خَلَقْنَا إِنَّا خَلَقْنَاهُمْ مِنْ طِينٍ لَازِبٍ (11)"));
+        alsafats.add(new Alsafat("بَلْ عَجِبْتَ وَيَسْخَرُونَ (12)"));
+        alsafats.add(new Alsafat("وَإِذَا ذُكِّرُوا لَا يَذْكُرُونَ (13)"));
+        alsafats.add(new Alsafat("وَإِذَا رَأَوْا آَيَةً يَسْتَسْخِرُونَ (14)"));
+        alsafats.add(new Alsafat("وَقَالُوا إِنْ هَذَا إِلَّا سِحْرٌ مُبِينٌ (15)"));
+        alsafats.add(new Alsafat("أَئِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَامًا أَئِنَّا لَمَبْعُوثُونَ (16)"));
+        alsafats.add(new Alsafat("أَوَآَبَاؤُنَا الْأَوَّلُونَ (17)"));
+        alsafats.add(new Alsafat("قُلْ نَعَمْ وَأَنْتُمْ دَاخِرُونَ (18)"));
+        alsafats.add(new Alsafat("فَإِنَّمَا هِيَ زَجْرَةٌ وَاحِدَةٌ فَإِذَا هُمْ يَنْظُرُونَ (19)"));
+        alsafats.add(new Alsafat("وَقَالُوا يَا وَيْلَنَا هَذَا يَوْمُ الدِّينِ (20)"));
+        alsafats.add(new Alsafat("هَذَا يَوْمُ الْفَصْلِ الَّذِي كُنْتُمْ بِهِ تُكَذِّبُونَ (21)"));
+        alsafats.add(new Alsafat("احْشُرُوا الَّذِينَ ظَلَمُوا وَأَزْوَاجَهُمْ وَمَا كَانُوا يَعْبُدُونَ (22)"));
+        alsafats.add(new Alsafat("مِنْ دُونِ اللَّهِ فَاهْدُوهُمْ إِلَى صِرَاطِ الْجَحِيمِ (23)"));
+        alsafats.add(new Alsafat("وَقِفُوهُمْ إِنَّهُمْ مَسْئُولُونَ (24)"));
+        alsafats.add(new Alsafat("مَا لَكُمْ لَا تَنَاصَرُونَ (25)"));
+        alsafats.add(new Alsafat("بَلْ هُمُ الْيَوْمَ مُسْتَسْلِمُونَ (26)"));
+        alsafats.add(new Alsafat("وَأَقْبَلَ بَعْضُهُمْ عَلَى بَعْضٍ يَتَسَاءَلُونَ (27)"));
+        alsafats.add(new Alsafat("قَالُوا إِنَّكُمْ كُنْتُمْ تَأْتُونَنَا عَنِ الْيَمِينِ (28)"));
+        alsafats.add(new Alsafat("قَالُوا بَلْ لَمْ تَكُونُوا مُؤْمِنِينَ (29)"));
+        alsafats.add(new Alsafat("وَمَا كَانَ لَنَا عَلَيْكُمْ مِنْ سُلْطَانٍ بَلْ كُنْتُمْ قَوْمًا طَاغِينَ (30)"));
+        alsafats.add(new Alsafat("فَحَقَّ عَلَيْنَا قَوْلُ رَبِّنَا إِنَّا لَذَائِقُونَ (31)"));
+        alsafats.add(new Alsafat("فَأَغْوَيْنَاكُمْ إِنَّا كُنَّا غَاوِينَ (32)"));
+        alsafats.add(new Alsafat("فَإِنَّهُمْ يَوْمَئِذٍ فِي الْعَذَابِ مُشْتَرِكُونَ (33)"));
+        alsafats.add(new Alsafat("إِنَّا كَذَلِكَ نَفْعَلُ بِالْمُجْرِمِينَ (34)"));
+        alsafats.add(new Alsafat("إِنَّهُمْ كَانُوا إِذَا قِيلَ لَهُمْ لَا إِلَهَ إِلَّا اللَّهُ يَسْتَكْبِرُونَ (35)"));
+        alsafats.add(new Alsafat("وَيَقُولُونَ أَئِنَّا لَتَارِكُوا آَلِهَتِنَا لِشَاعِرٍ مَجْنُونٍ (36)"));
+        alsafats.add(new Alsafat("بَلْ جَاءَ بِالْحَقِّ وَصَدَّقَ الْمُرْسَلِينَ (37)"));
+        alsafats.add(new Alsafat("إِنَّكُمْ لَذَائِقُو الْعَذَابِ الْأَلِيمِ (38)"));
+        alsafats.add(new Alsafat("وَمَا تُجْزَوْنَ إِلَّا مَا كُنْتُمْ تَعْمَلُونَ (39)"));
+        alsafats.add(new Alsafat("إِلَّا عِبَادَ اللَّهِ الْمُخْلَصِينَ (40)"));
+        alsafats.add(new Alsafat("أُولَئِكَ لَهُمْ رِزْقٌ مَعْلُومٌ (41)"));
+        alsafats.add(new Alsafat("فَوَاكِهُ وَهُمْ مُكْرَمُونَ (42)"));
+        alsafats.add(new Alsafat("فِي جَنَّاتِ النَّعِيمِ (43)"));
+        alsafats.add(new Alsafat("عَلَى سُرُرٍ مُتَقَابِلِينَ (44)"));
+        alsafats.add(new Alsafat("يُطَافُ عَلَيْهِمْ بِكَأْسٍ مِنْ مَعِينٍ (45)"));
+        alsafats.add(new Alsafat("بَيْضَاءَ لَذَّةٍ لِلشَّارِبِينَ (46)"));
+        alsafats.add(new Alsafat("لَا فِيهَا غَوْلٌ وَلَا هُمْ عَنْهَا يُنْزَفُونَ (47)"));
+        alsafats.add(new Alsafat("وَعِنْدَهُمْ قَاصِرَاتُ الطَّرْفِ عِينٌ (48)"));
+        alsafats.add(new Alsafat("كَأَنَّهُنَّ بَيْضٌ مَكْنُونٌ (49)"));
+        alsafats.add(new Alsafat("فَأَقْبَلَ بَعْضُهُمْ عَلَى بَعْضٍ يَتَسَاءَلُونَ (50)"));
+        alsafats.add(new Alsafat("قَالَ قَائِلٌ مِنْهُمْ إِنِّي كَانَ لِي قَرِينٌ (51)"));
+        alsafats.add(new Alsafat("يَقُولُ أَئِنَّكَ لَمِنَ الْمُصَدِّقِينَ (52)"));
+        alsafats.add(new Alsafat("أَئِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَامًا أَئِنَّا لَمَدِينُونَ (53)"));
+        alsafats.add(new Alsafat("قَالَ هَلْ أَنْتُمْ مُطَّلِعُونَ (54)"));
+        alsafats.add(new Alsafat("فَاطَّلَعَ فَرَآَهُ فِي سَوَاءِ الْجَحِيمِ (55)"));
+        alsafats.add(new Alsafat("قَالَ تَاللَّهِ إِنْ كِدْتَ لَتُرْدِينِ (56)"));
+        alsafats.add(new Alsafat("وَلَوْلَا نِعْمَةُ رَبِّي لَكُنْتُ مِنَ الْمُحْضَرِينَ (57)"));
+        alsafats.add(new Alsafat("أَفَمَا نَحْنُ بِمَيِّتِينَ (58)"));
+        alsafats.add(new Alsafat("إِلَّا مَوْتَتَنَا الْأُولَى وَمَا نَحْنُ بِمُعَذَّبِينَ (59)"));
+        alsafats.add(new Alsafat("إِنَّ هَذَا لَهُوَ الْفَوْزُ الْعَظِيمُ (60)"));
+        alsafats.add(new Alsafat("لِمِثْلِ هَذَا فَلْيَعْمَلِ الْعَامِلُونَ (61)"));
+        alsafats.add(new Alsafat("أَذَلِكَ خَيْرٌ نُزُلًا أَمْ شَجَرَةُ الزَّقُّومِ (62)"));
+        alsafats.add(new Alsafat("إِنَّا جَعَلْنَاهَا فِتْنَةً لِلظَّالِمِينَ (63)"));
+        alsafats.add(new Alsafat("إِنَّهَا شَجَرَةٌ تَخْرُجُ فِي أَصْلِ الْجَحِيمِ (64)"));
+        alsafats.add(new Alsafat("طَلْعُهَا كَأَنَّهُ رُءُوسُ الشَّيَاطِينِ (65)"));
+        alsafats.add(new Alsafat("فَإِنَّهُمْ لَآَكِلُونَ مِنْهَا فَمَالِئُونَ مِنْهَا الْبُطُونَ (66)"));
+        alsafats.add(new Alsafat("ثُمَّ إِنَّ لَهُمْ عَلَيْهَا لَشَوْبًا مِنْ حَمِيمٍ (67)"));
+        alsafats.add(new Alsafat("ثُمَّ إِنَّ مَرْجِعَهُمْ لَإِلَى الْجَحِيمِ (68)"));
+        alsafats.add(new Alsafat("إِنَّهُمْ أَلْفَوْا آَبَاءَهُمْ ضَالِّينَ (69)"));
+        alsafats.add(new Alsafat("فَهُمْ عَلَى آَثَارِهِمْ يُهْرَعُونَ (70)"));
+        alsafats.add(new Alsafat("وَلَقَدْ ضَلَّ قَبْلَهُمْ أَكْثَرُ الْأَوَّلِينَ (71)"));
+        alsafats.add(new Alsafat("وَلَقَدْ أَرْسَلْنَا فِيهِمْ مُنْذِرِينَ (72)"));
+        alsafats.add(new Alsafat("فَانْظُرْ كَيْفَ كَانَ عَاقِبَةُ الْمُنْذَرِينَ (73)"));
+        alsafats.add(new Alsafat("إِلَّا عِبَادَ اللَّهِ الْمُخْلَصِينَ (74)"));
+        alsafats.add(new Alsafat("وَلَقَدْ نَادَانَا نُوحٌ فَلَنِعْمَ الْمُجِيبُونَ (75)"));
+        alsafats.add(new Alsafat("وَنَجَّيْنَاهُ وَأَهْلَهُ مِنَ الْكَرْبِ الْعَظِيمِ (76)"));
+        alsafats.add(new Alsafat("وَجَعَلْنَا ذُرِّيَّتَهُ هُمُ الْبَاقِينَ (77)"));
+        alsafats.add(new Alsafat("وَتَرَكْنَا عَلَيْهِ فِي الْآَخِرِينَ (78)"));
+        alsafats.add(new Alsafat("سَلَامٌ عَلَى نُوحٍ فِي الْعَالَمِينَ (79)"));
+        alsafats.add(new Alsafat("إِنَّا كَذَلِكَ نَجْزِي الْمُحْسِنِينَ (80)"));
+        alsafats.add(new Alsafat("إِنَّهُ مِنْ عِبَادِنَا الْمُؤْمِنِينَ (81)"));
+        alsafats.add(new Alsafat("ثُمَّ أَغْرَقْنَا الْآَخَرِينَ (82)"));
+        alsafats.add(new Alsafat("وَإِنَّ مِنْ شِيعَتِهِ لَإِبْرَاهِيمَ (83)"));
+        alsafats.add(new Alsafat("إِذْ جَاءَ رَبَّهُ بِقَلْبٍ سَلِيمٍ (84)"));
+        alsafats.add(new Alsafat("إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِ مَاذَا تَعْبُدُونَ (85)"));
+        alsafats.add(new Alsafat("أَئِفْكًا آَلِهَةً دُونَ اللَّهِ تُرِيدُونَ (86)"));
+        alsafats.add(new Alsafat("فَمَا ظَنُّكُمْ بِرَبِّ الْعَالَمِينَ (87)"));
+        alsafats.add(new Alsafat("فَنَظَرَ نَظْرَةً فِي النُّجُومِ (88)"));
+        alsafats.add(new Alsafat("فَقَالَ إِنِّي سَقِيمٌ (89)"));
+        alsafats.add(new Alsafat("فَتَوَلَّوْا عَنْهُ مُدْبِرِينَ (90)"));
+        alsafats.add(new Alsafat("فَرَاغَ إِلَى آَلِهَتِهِمْ فَقَالَ أَلَا تَأْكُلُونَ (91)"));
+        alsafats.add(new Alsafat("مَا لَكُمْ لَا تَنْطِقُونَ (92)"));
+        alsafats.add(new Alsafat("فَرَاغَ عَلَيْهِمْ ضَرْبًا بِالْيَمِينِ (93)"));
+        alsafats.add(new Alsafat("فَأَقْبَلُوا إِلَيْهِ يَزِفُّونَ (94)"));
+        alsafats.add(new Alsafat("قَالَ أَتَعْبُدُونَ مَا تَنْحِتُونَ (95)"));
+        alsafats.add(new Alsafat("وَاللَّهُ خَلَقَكُمْ وَمَا تَعْمَلُونَ (96)"));
+        alsafats.add(new Alsafat("قَالُوا ابْنُوا لَهُ بُنْيَانًا فَأَلْقُوهُ فِي الْجَحِيمِ (97)"));
+        alsafats.add(new Alsafat("فَأَرَادُوا بِهِ كَيْدًا فَجَعَلْنَاهُمُ الْأَسْفَلِينَ (98)"));
+        alsafats.add(new Alsafat("وَقَالَ إِنِّي ذَاهِبٌ إِلَى رَبِّي سَيَهْدِينِ (99)"));
+        alsafats.add(new Alsafat("رَبِّ هَبْ لِي مِنَ الصَّالِحِينَ (100)"));
+        alsafats.add(new Alsafat("فَبَشَّرْنَاهُ بِغُلَامٍ حَلِيمٍ (101)"));
+        alsafats.add(new Alsafat("فَلَمَّا بَلَغَ مَعَهُ السَّعْيَ قَالَ يَا بُنَيَّ إِنِّي أَرَى فِي الْمَنَامِ أَنِّي أَذْبَحُكَ فَانْظُرْ مَاذَا تَرَى قَالَ يَا أَبَتِ افْعَلْ مَا تُؤْمَرُ سَتَجِدُنِي إِنْ شَاءَ اللَّهُ مِنَ الصَّابِرِينَ (102)"));
+        alsafats.add(new Alsafat("فَلَمَّا أَسْلَمَا وَتَلَّهُ لِلْجَبِينِ (103)"));
+        alsafats.add(new Alsafat("وَنَادَيْنَاهُ أَنْ يَا إِبْرَاهِيمُ (104)"));
+        alsafats.add(new Alsafat("قَدْ صَدَّقْتَ الرُّؤْيَا إِنَّا كَذَلِكَ نَجْزِي الْمُحْسِنِينَ (105)"));
+        alsafats.add(new Alsafat("إِنَّ هَذَا لَهُوَ الْبَلَاءُ الْمُبِينُ (106)"));
+        alsafats.add(new Alsafat("وَفَدَيْنَاهُ بِذِبْحٍ عَظِيمٍ (107)"));
+        alsafats.add(new Alsafat("وَتَرَكْنَا عَلَيْهِ فِي الْآَخِرِينَ (108)"));
+        alsafats.add(new Alsafat("سَلَامٌ عَلَى إِبْرَاهِيمَ (109)"));
+        alsafats.add(new Alsafat("كَذَلِكَ نَجْزِي الْمُحْسِنِينَ (110)"));
+        alsafats.add(new Alsafat("إِنَّهُ مِنْ عِبَادِنَا الْمُؤْمِنِينَ (111)"));
+        alsafats.add(new Alsafat("وَبَشَّرْنَاهُ بِإِسْحَاقَ نَبِيًّا مِنَ الصَّالِحِينَ (112)"));
+        alsafats.add(new Alsafat("وَبَارَكْنَا عَلَيْهِ وَعَلَى إِسْحَاقَ وَمِنْ ذُرِّيَّتِهِمَا مُحْسِنٌ وَظَالِمٌ لِنَفْسِهِ مُبِينٌ (113)"));
+        alsafats.add(new Alsafat("وَلَقَدْ مَنَنَّا عَلَى مُوسَى وَهَارُونَ (114)"));
+        alsafats.add(new Alsafat("وَنَجَّيْنَاهُمَا وَقَوْمَهُمَا مِنَ الْكَرْبِ الْعَظِيمِ (115)"));
+        alsafats.add(new Alsafat("وَنَصَرْنَاهُمْ فَكَانُوا هُمُ الْغَالِبِينَ (116)"));
+        alsafats.add(new Alsafat("وَآَتَيْنَاهُمَا الْكِتَابَ الْمُسْتَبِينَ (117)"));
+        alsafats.add(new Alsafat("وَهَدَيْنَاهُمَا الصِّرَاطَ الْمُسْتَقِيمَ (118)"));
+        alsafats.add(new Alsafat("وَتَرَكْنَا عَلَيْهِمَا فِي الْآَخِرِينَ (119)"));
+        alsafats.add(new Alsafat("سَلَامٌ عَلَى مُوسَى وَهَارُونَ (120)"));
+        alsafats.add(new Alsafat("إِنَّا كَذَلِكَ نَجْزِي الْمُحْسِنِينَ (121)"));
+        alsafats.add(new Alsafat("إِنَّهُمَا مِنْ عِبَادِنَا الْمُؤْمِنِينَ (122)"));
+        alsafats.add(new Alsafat("وَإِنَّ إِلْيَاسَ لَمِنَ الْمُرْسَلِينَ (123)"));
+        alsafats.add(new Alsafat("إِذْ قَالَ لِقَوْمِهِ أَلَا تَتَّقُونَ (124)"));
+        alsafats.add(new Alsafat("أَتَدْعُونَ بَعْلًا وَتَذَرُونَ أَحْسَنَ الْخَالِقِينَ (125)"));
+        alsafats.add(new Alsafat("اللَّهَ رَبَّكُمْ وَرَبَّ آَبَائِكُمُ الْأَوَّلِينَ (126)"));
+        alsafats.add(new Alsafat("فَكَذَّبُوهُ فَإِنَّهُمْ لَمُحْضَرُونَ (127)"));
+        alsafats.add(new Alsafat("إِلَّا عِبَادَ اللَّهِ الْمُخْلَصِينَ (128)"));
+        alsafats.add(new Alsafat("وَتَرَكْنَا عَلَيْهِ فِي الْآَخِرِينَ (129)"));
+        alsafats.add(new Alsafat("سَلَامٌ عَلَى إِلْ يَاسِينَ (130)"));
+        alsafats.add(new Alsafat("إِنَّا كَذَلِكَ نَجْزِي الْمُحْسِنِينَ (131)"));
+        alsafats.add(new Alsafat("إِنَّهُ مِنْ عِبَادِنَا الْمُؤْمِنِينَ (132)"));
+        alsafats.add(new Alsafat("وَإِنَّ لُوطًا لَمِنَ الْمُرْسَلِينَ (133)"));
+        alsafats.add(new Alsafat("إِذْ نَجَّيْنَاهُ وَأَهْلَهُ أَجْمَعِينَ (134)"));
+        alsafats.add(new Alsafat("إِلَّا عَجُوزًا فِي الْغَابِرِينَ (135)"));
+        alsafats.add(new Alsafat("ثُمَّ دَمَّرْنَا الْآَخَرِينَ (136)"));
+        alsafats.add(new Alsafat("وَإِنَّكُمْ لَتَمُرُّونَ عَلَيْهِمْ مُصْبِحِينَ (137)"));
+        alsafats.add(new Alsafat("وَبِاللَّيْلِ أَفَلَا تَعْقِلُونَ (138)"));
+        alsafats.add(new Alsafat("وَإِنَّ يُونُسَ لَمِنَ الْمُرْسَلِينَ (139)"));
+        alsafats.add(new Alsafat("إِذْ أَبَقَ إِلَى الْفُلْكِ الْمَشْحُونِ (140)"));
+        alsafats.add(new Alsafat("فَسَاهَمَ فَكَانَ مِنَ الْمُدْحَضِينَ (141)"));
+        alsafats.add(new Alsafat("فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ (142)"));
+        alsafats.add(new Alsafat("فَلَوْلَا أَنَّهُ كَانَ مِنَ الْمُسَبِّحِينَ (143)"));
+        alsafats.add(new Alsafat("لَلَبِثَ فِي بَطْنِهِ إِلَى يَوْمِ يُبْعَثُونَ (144)"));
+        alsafats.add(new Alsafat("فَنَبَذْنَاهُ بِالْعَرَاءِ وَهُوَ سَقِيمٌ (145)"));
+        alsafats.add(new Alsafat("وَأَنْبَتْنَا عَلَيْهِ شَجَرَةً مِنْ يَقْطِينٍ (146)"));
+        alsafats.add(new Alsafat("وَأَرْسَلْنَاهُ إِلَى مِئَةِ أَلْفٍ أَوْ يَزِيدُونَ (147)"));
+        alsafats.add(new Alsafat("فَآَمَنُوا فَمَتَّعْنَاهُمْ إِلَى حِينٍ (148)"));
+        alsafats.add(new Alsafat("فَاسْتَفْتِهِمْ أَلِرَبِّكَ الْبَنَاتُ وَلَهُمُ الْبَنُونَ (149)"));
+        alsafats.add(new Alsafat("أَمْ خَلَقْنَا الْمَلَائِكَةَ إِنَاثًا وَهُمْ شَاهِدُونَ (150)"));
+        alsafats.add(new Alsafat("أَلَا إِنَّهُمْ مِنْ إِفْكِهِمْ لَيَقُولُونَ (151)"));
+        alsafats.add(new Alsafat("وَلَدَ اللَّهُ وَإِنَّهُمْ لَكَاذِبُونَ (152)"));
+        alsafats.add(new Alsafat("أَصْطَفَى الْبَنَاتِ عَلَى الْبَنِينَ (153)"));
+        alsafats.add(new Alsafat("مَا لَكُمْ كَيْفَ تَحْكُمُونَ (154)"));
+        alsafats.add(new Alsafat("أَفَلَا تَذَكَّرُونَ (155)"));
+        alsafats.add(new Alsafat("أَمْ لَكُمْ سُلْطَانٌ مُبِينٌ (156)"));
+        alsafats.add(new Alsafat("فَأْتُوا بِكِتَابِكُمْ إِنْ كُنْتُمْ صَادِقِينَ (157)"));
+        alsafats.add(new Alsafat("وَجَعَلُوا بَيْنَهُ وَبَيْنَ الْجِنَّةِ نَسَبًا وَلَقَدْ عَلِمَتِ الْجِنَّةُ إِنَّهُمْ لَمُحْضَرُونَ (158)"));
+        alsafats.add(new Alsafat("سُبْحَانَ اللَّهِ عَمَّا يَصِفُونَ (159)"));
+        alsafats.add(new Alsafat("إِلَّا عِبَادَ اللَّهِ الْمُخْلَصِينَ (160)"));
+        alsafats.add(new Alsafat("فَإِنَّكُمْ وَمَا تَعْبُدُونَ (161)"));
+        alsafats.add(new Alsafat("مَا أَنْتُمْ عَلَيْهِ بِفَاتِنِينَ (162)"));
+        alsafats.add(new Alsafat("إِلَّا مَنْ هُوَ صَالِ الْجَحِيمِ (163)"));
+        alsafats.add(new Alsafat("وَمَا مِنَّا إِلَّا لَهُ مَقَامٌ مَعْلُومٌ (164)"));
+        alsafats.add(new Alsafat("وَإِنَّا لَنَحْنُ الصَّافُّونَ (165)"));
+        alsafats.add(new Alsafat("وَإِنَّا لَنَحْنُ الْمُسَبِّحُونَ (166)"));
+        alsafats.add(new Alsafat("وَإِنْ كَانُوا لَيَقُولُونَ (167)"));
+        alsafats.add(new Alsafat("لَوْ أَنَّ عِنْدَنَا ذِكْرًا مِنَ الْأَوَّلِينَ (168)"));
+        alsafats.add(new Alsafat("لَكُنَّا عِبَادَ اللَّهِ الْمُخْلَصِينَ (169)"));
+        alsafats.add(new Alsafat("فَكَفَرُوا بِهِ فَسَوْفَ يَعْلَمُونَ (170)"));
+        alsafats.add(new Alsafat("وَلَقَدْ سَبَقَتْ كَلِمَتُنَا لِعِبَادِنَا الْمُرْسَلِينَ (171)"));
+        alsafats.add(new Alsafat("إِنَّهُمْ لَهُمُ الْمَنْصُورُونَ (172)"));
+        alsafats.add(new Alsafat("وَإِنَّ جُنْدَنَا لَهُمُ الْغَالِبُونَ (173)"));
+        alsafats.add(new Alsafat("فَتَوَلَّ عَنْهُمْ حَتَّى حِينٍ (174)"));
+        alsafats.add(new Alsafat("وَأَبْصِرْهُمْ فَسَوْفَ يُبْصِرُونَ (175)"));
+        alsafats.add(new Alsafat("أَفَبِعَذَابِنَا يَسْتَعْجِلُونَ (176)"));
+        alsafats.add(new Alsafat("فَإِذَا نَزَلَ بِسَاحَتِهِمْ فَسَاءَ صَبَاحُ الْمُنْذَرِينَ (177)"));
+        alsafats.add(new Alsafat("وَتَوَلَّ عَنْهُمْ حَتَّى حِينٍ (178)"));
+        alsafats.add(new Alsafat("وَأَبْصِرْ فَسَوْفَ يُبْصِرُونَ (179)"));
+        alsafats.add(new Alsafat("سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ (180)"));
+        alsafats.add(new Alsafat("وَسَلَامٌ عَلَى الْمُرْسَلِينَ (181)"));
+        alsafats.add(new Alsafat("وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (182)"));
+
+
+
+        quran_text_37_adapter = new quran_text_37_adapter(alsafats ,QuranText_37Activity.this);
+
+        recyclerView = findViewById(R.id.rv_37);
+        recyclerView.setLayoutManager(new LinearLayoutManager(QuranText_37Activity.this));
+        recyclerView.setAdapter(quran_text_37_adapter);
+
+
+    }
+
+}

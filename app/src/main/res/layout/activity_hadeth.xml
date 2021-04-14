@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HadethActivity"
+    android:background="@drawable/hadeth"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/_10sdp"
+        >
+
+        <Button
+            android:id="@+id/ahadeth_sound_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_25sdp"
+            android:text=" أحاديث مسموعة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+
+        <Button
+            android:id="@+id/ebn_khozayma_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_25sdp"
+            android:text=" صحيح بن خزيمة "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+        <Button
+            android:id="@+id/bukhary_right_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_25sdp"
+            android:text="صحيح البخاري"
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+        <Button
+            android:id="@+id/muslim_right_btn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_25sdp"
+            android:text=" صحيح مسلم "
+            android:textColor="#000000"
+            android:textSize="@dimen/_22ssp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btnbackground"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
