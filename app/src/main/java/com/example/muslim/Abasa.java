@@ -7,7 +7,7 @@ public class Abasa implements Serializable {
 
     public Abasa() {
     }
-
+//andd
     public Abasa (String ayat) {
         this.ayat = ayat;
     }
